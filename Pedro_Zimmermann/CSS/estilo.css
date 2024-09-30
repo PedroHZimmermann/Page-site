@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fustat:wght@200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: "Arsenal SC", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 12px;
+    width: 100%;
+    
+}
+.menu a:hover{
+    color: rgb(53, 106, 204);
+    border-top: rgb(53, 106, 204);
+}
+
+#botao{
+    background: rgb(53, 106, 204);
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background: white;
+    color: black;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    justify-content: center;
+}
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    border: 1px solid white
+}
+.img_headline{
+    margin-right: 10%;
+    flex: 40%;
+    border: 1px solid white;
+    text-align: center;
+}
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(53, 106, 204);
+    margin: 1px;
+    margin-top: 30px;
+}
+.headline p{
+    margin-top: 50PX;
+    margin-right: 25PX;
+    font-size: 20PX;
+    margin-bottom: 50px;
+}
+.botao_wpp{
+    margin-top: 15px;
+    background: rgb(53, 106, 204);
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.botao_wpp:hover{
+    margin-top: 15px;
+    background: white;
+    padding: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    text-align: center;
+    padding: 10%;
+    border: 1px solid black;
+    width: 90%;
+}
+section h2{
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid black;
+}
+footer{
+    margin-top: 400px;
+    height: 300px;
+    background-image: linear-gradient(180deg,rgb(48, 47, 47),rgb(24, 24, 24), black );
+    text-align: center;
+    border-top: rgb(53, 106, 204);
+    font-family: "Arsenal SC", sans-serif;
+    color: white;
+}
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+}
+.capa1{
+    border-radius: 5px;
+    border: 10px solid black;
+    background: green;
+    box-shadow: 5px black;
+    text-align: left;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+body{
+    width: 100%
+}
+#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background: white;
+}
+.blog-heading h3{
+    font-size: 2.3rem;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 2.4rem;
+}
+.blog-box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1050px;
+    width: 90%;
+    margin-top: 50px;
+}
+.blog-box{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition:all ease 0.3s;
+}
+
+.blog-box:hover{
+    background-color: white;
+    box-shadow: 16px 20px 50px rgb(48, 48, 48)
+}
+.blog-box-img{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.blog-box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all ease 0.3s;
+}
+
+.blog-img-link2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 30px rgb(48, 47, 47);
+    animation: fade 0.3s;
+}
+
+.blog-box:hover .blog-box-img a{
+    display: flex;
+}
+
+.blog-box:hover .blog-box-img img{
+    filter: blur(3px);    
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.blog-box-text{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 20px 10px;
+}
+.blog-box-text p,
+.blog-box-text strong
+{
+    color: rgb(88, 88, 88);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.blog-box-text a{
+    font-size: 1.5rem;
+    color: rgb(105, 105, 105);
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin: 5px 0px 10px 0px;
+
+}
+.blog-box-text p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.blog-autor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.blog-autor-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.blog-autor-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-autor-text{
+    display: flex;
+    flex-direction: column;
+}
+.blog-autor-text strong{
+    color: rgb(56, 56, 56);
+    font-weight: 800;
+}
+.blog-autor-text span{
+    color: rgb(92, 91, 91);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.header-form{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 10px;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin-top: 250px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 800;
+}
+.container .title::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background: black;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px 12px 0px;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: cal(100% / 2 - 20px);
+}
+.user-details .input-box input{
+    height: 50px;
+    width: 700px;
+    outline:none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 25px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;   
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: black;
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;   
+}
+form .gender-details .category{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.gender-details .category label{
+    display: flex;
+    align-items: center;
+}
+.gender-details .category .dot{
+    height: 20px;
+    width: 20px;
+    background: rgb(50, 50, 50);
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    border-color: gray;
+    background: white;
+}
+form input[type="radio"]{
+    display: none;
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    height: 80%;
+    width: 80%;
+    outline: none;
+    color: white;
+    background: black;
+    font-size: 15px;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+form .button input:hover{
+    background: rgb(50, 50, 50);
+    color: black;
+}
+
+.container_contato{
+    background: rgb(255, 254, 254);
+    width: 80%;
+    padding: 20px 60px 40px 40px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px ;
+}
+
+.container_contato .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content .left-side .details{
+    margin: 14px;
+    text-align: center;
+}
+.container_contato .content .left-side{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    margin-top: 15px;
+}
+
+.content .left-side::before{
+    content: "";
+    position: absolute;
+    height:70% ;
+    width: 2px;
+    right: -30px;
+    top: 50%;
+    transform: translatey(-50%);
+    background: black;
+}
+.content .left-side .details img{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+}
+.content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+}
+.content .left-side .details .text-one, 
+.content .left-side .details .text-two{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.container_contato .content .right-side{
+    width: 70%;
+    height: 100%;
+}
+.content .right-side .topic-text{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+}
+.right-side .input-box-contato{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+.right-side .input-box-contato input,
+.right-side .input-box-contato textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background: rgb(200, 200, 200);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 15px;
+    resize: none;
+}
+.right-side .message-box{
+    min-height: 110px; 
+    margin-top: 5px;  
+}
+.right-side .button-contato input[type="button"]{
+    color: white;
+    font-size: 15px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+
+}
+.right-side .button-contato input[type="button"]:hover{
+    background: rgb(100, 100, 100);
+    color: black;
+}
+.container-login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+}
+.container-login .forms{
+    padding: 30px;
+}
+.container-login .forms .title{
+    font-size: 27px;
+    font-weight: 600;
+    position: relative;
+}
+.form-login .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    border-radius: 25px;
+}
+.form-login .input-field{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+
+}
+.input-field input{
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    font-size: 16px;
+}
+.input-field img{
+    top: 50%;
+    left: 0;
+    transform: translateY(-175%);
+}
+.form-login .checkbox-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+.checkbox-content input{
+    accent-color: black;
+    margin: 0 8px -2px 4px;
+}
+.form-login a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
